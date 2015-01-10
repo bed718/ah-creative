@@ -61,11 +61,11 @@ function base_creative_preprocess_node(&$vars){
 		$vars['bg_image'] =  render($vars['content']['field_bg_image']);
 
 		$bg_settings = array(
-			'bg_image_url' => '/sites/default/files/' . $vars['field_bg_image'][0]['filename'],
+			'bg_image_url' => '/' . variable_get('file_public_path', conf_path() . '/files') . '/' . $vars['field_bg_image'][0]['filename'],
 		);
 
 		drupal_add_js(array('bg_settings' => $bg_settings), 'setting');
-		drupal_add_js(path_to_theme() . '/js/jquery.tubular.js');
+		//drupal_add_js(path_to_theme() . '/js/jquery.tubular.js');
 
 	}
 	

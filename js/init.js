@@ -73,7 +73,7 @@
 				});
 			}
 
-			$('body').tubular({videoId: 'sOVfuvPgA6I'});
+			//$('body').tubular({videoId: 'sOVfuvPgA6I'});
 			
 
 		}
