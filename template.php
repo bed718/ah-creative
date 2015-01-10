@@ -55,6 +55,8 @@ function base_creative_preprocess_node(&$vars){
 
 	$vars['body'] =  render($vars['content']['body']);
 	$vars['bg_body'] =  render($vars['content']['field_bg_body']);
+
+	$vars['title'] = html_entity_decode($vars['title']);
 	
 
 	if(isset($vars['content']['field_bg_image'])){
