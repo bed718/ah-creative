@@ -670,6 +670,13 @@
 	width: 100%;
 }
 
+.page-creative{
+
+	.body-top{
+		display: none;
+	}
+}
+
 #creative-home{
 	height: 100vh;
 	background-color: $page_bg_med;
