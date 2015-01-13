@@ -344,11 +344,11 @@ li.service-links-pinterest-button {
 /* PLACEHOLDERS
 -------------------------------------------------------------- */
 /* line 82, ../sass/_base.scss */
-#footer a, #footer .social-icons a, .social-icons a {
+h2 a, #footer a, #footer .social-icons a, .social-icons a {
   color: #e4ba27;
 }
 /* line 85, ../sass/_base.scss */
-#footer a:hover, .social-icons a:hover {
+h2 a:hover, #footer a:hover, .social-icons a:hover {
   color: #555;
 }
 
@@ -408,7 +408,7 @@ p a {
   border-bottom: #e4ba27 dashed 1px;
 }
 
-/* line 148, ../sass/_base.scss */
+/* line 152, ../sass/_base.scss */
 ul,
 ul.menu,
 ul.menu li {
@@ -418,7 +418,7 @@ ul.menu li {
   padding: 0;
 }
 
-/* line 157, ../sass/_base.scss */
+/* line 161, ../sass/_base.scss */
 li a.active,
 li.opened span.nolink {
   color: #555;
@@ -426,31 +426,31 @@ li.opened span.nolink {
 
 /* TYPOGRAPHY STYLES
 -------------------------------------------------------------- */
-/* line 171, ../sass/_base.scss */
+/* line 175, ../sass/_base.scss */
 h1, h2, h3, h4 {
   font-weight: 100;
   font-family: "Raleway", sans-serif;
 }
 
-/* line 176, ../sass/_base.scss */
+/* line 180, ../sass/_base.scss */
 h1 {
   font-size: 36px;
   text-align: center;
   margin-bottom: 60px;
 }
 @media (max-width: 600px) {
-  /* line 176, ../sass/_base.scss */
+  /* line 180, ../sass/_base.scss */
   h1 {
     font-size: 20px;
   }
 }
 
-/* line 186, ../sass/_base.scss */
+/* line 190, ../sass/_base.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 190, ../sass/_base.scss */
+/* line 194, ../sass/_base.scss */
 .section-title {
   font-weight: 100;
   font-family: "Raleway", sans-serif;
@@ -458,18 +458,18 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* line 197, ../sass/_base.scss */
+/* line 201, ../sass/_base.scss */
 em {
   font-family: "GaramondPremierProLightItalicDisplay", serif;
 }
 
-/* line 201, ../sass/_base.scss */
+/* line 205, ../sass/_base.scss */
 #page-title,
 h2.pane-title {
   font-size: 3em;
 }
 @media (max-width: 600px) {
-  /* line 201, ../sass/_base.scss */
+  /* line 205, ../sass/_base.scss */
   #page-title,
   h2.pane-title {
     font-size: 30px;

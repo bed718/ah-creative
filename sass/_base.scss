@@ -145,6 +145,10 @@ p{
   }
 }
 
+h2 a{
+  @extend %a_color_lt;
+}
+
 ul,
 ul.menu,
 ul.menu li{
