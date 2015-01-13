@@ -258,6 +258,10 @@
 		color: #fff;
 	}
 
+	a{
+		@extend %a_color_lt;
+	}
+
 	p{
 		text-align: justify;
 	}
@@ -304,6 +308,7 @@
 	.social-icons{
 
 		a{
+			@extend %a_color_lt;
 			padding: 0 20px 0 0;
 			font-size: 1.5em;
 
@@ -319,6 +324,7 @@
 		vertical-align: top;
 		font-size: .8em;
 		font-weight: 200;
+		clear: none;
 		
 		h2{
 			margin-bottom: 20px;
@@ -452,13 +458,14 @@
 	margin-top: 30px;
 
 	a{
+		@extend %a_color_lt;
 		padding: 0 10px;
 	}
 }
 
 
 .divider{
-	margin: $gutter 0;
+	padding: $gutter 0;
 	text-align: center;
 	font-size: 4em;
 	font-weight: 100;
@@ -468,6 +475,7 @@
 		margin: $gutter / 2;
 	}
 }
+
 
 .pane-title{
 	text-align: center;
@@ -591,14 +599,22 @@
 	}
 }
 
-.view-id-projects,
+.view-id-projects .view-content,
 .full{
 	max-width: $bp_lg;
 	margin: auto;
-	padding: $gutter;
+	padding-bottom: $gutter;
 
 	@include bp(m){
-		padding: $gutter / 3;
+		padding-bottom: $gutter / 3;
+	}
+}
+
+.view-id-projects{
+	padding: 0 $gutter;
+
+	@include bp(m){
+		padding: 0 ($gutter / 3) $gutter;
 	}
 }
 
@@ -759,83 +775,7 @@
 	}
 }
 
-.home-section{
-	@include pie-clearfix;
-	clear: both;
-	margin-bottom: $gutter * 2;
-	background-color: #fff;
 
-	p{
-		max-width: 600px;
-		margin: 0 auto $gutter;
-	}
-
-	.inner{
-		max-width: $main_width;
-	}
-
-	h2{
-		text-align: center;
-	}
-
-	&.dark{
-		background-color: $color_accent;
-		color: #fff;
-		padding: $gutter;
-
-		.btn{
-			margin-top: $gutter;
-
-			a{
-				background-color: #fff;
-				color: $color_accent;
-			}
-		}
-	}
-}
-
-#testimonials{
-	background: url(../images/Aim-High-City.jpg) no-repeat center top fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  padding: $gutter *2;
-
-  text-align: center;
-
-  h1{
-  	margin-bottom: 10px;
-  }
-
-  h2{
-  	font-size: 1em;
-  	text-align: center;
-  	margin-bottom: $gutter;
-  }
-
-  .quote{
-	  	@include inline-block;
-	  	vertical-align: top;
-	  	width: 45%;
-	  	padding: 0 4%;
-	  	line-height: 28px;
-	  	font-size: 1.2em;
-	  	font-weight: 200;
-	  	text-align: left;
-
-	  	.author{
-	  		text-align: right;
-	  		font-family: $font_header;
-	  		font-size: .6em;
-	  		letter-spacing: 1px;
-	  		text-transform: uppercase;
-	  		font-weight: 400;
-	  	}
-
-  }
-}
 
 
 
@@ -1149,15 +1089,20 @@ h2.push-center{
 .section{
 	@include pie-clearfix;
 	margin-bottom: $gutter;
+	clear: both;
 
 	p{
-		font-size: 1.2em;
-		line-height: normal;
+		font-size: 1.1em;
+		line-height: 30px;
 		text-align: justify;
-		max-width: 600px;
+		max-width: 650px;
 		margin: auto auto $gutter;
 		font-family: $font_header;
 		font-weight: 200;
+
+		@include bp(s){
+			padding: 0 ($gutter / 3);
+		}
 	}
 
 	h1{
@@ -1172,6 +1117,11 @@ h2.push-center{
 		margin-bottom: 10px;
 	}
 
+	.inside{
+		max-width: $bp_lg;
+		margin: auto;
+	}
+
 	@include bp(s){
 		margin-bottom: $gutter /3;
 		
@@ -1182,6 +1132,106 @@ h2.push-center{
 		}
 	}
 
+	&.dark{
+		background-color: $color_accent;
+		color: #fff;
+		padding: $gutter;
+
+		&.bottom{
+			margin-bottom: 0;
+		}
+
+		.btn{
+			margin-top: $gutter;
+
+			a{
+				background-color: #fff;
+				color: $color_accent;
+
+				&:hover{
+					background-color: $page_bg_med;
+				}
+			}
+		}
+	}
+
+}
+
+
+#testimonials{
+	background: url(../images/Aim-High-City.jpg) no-repeat center top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  padding: $gutter;
+
+  text-align: center;
+
+  h1{
+  	margin-bottom: 10px;
+  }
+
+  h2{
+  	font-size: 1em;
+  	text-align: center;
+  	margin-bottom: $gutter;
+  	font-weight: 200;
+  	margin-top: 20px;
+  	letter-spacing: 0;
+  	text-transform: none;
+  }
+
+  .quote{
+	  	@include inline-block;
+	  	vertical-align: top;
+	  	width: 49%;
+	  	line-height: 28px;
+	  	font-size: 1.2em;
+	  	font-weight: 200;
+	  	text-align: left;
+
+	  	&.even{
+	  		padding-left: $gutter / 2;
+	  	}
+
+	  	&.odd{
+	  		padding-right: $gutter / 2;
+	  	}
+
+	  	.author{
+	  		text-align: right;
+	  		font-family: $font_header;
+	  		font-size: .6em;
+	  		letter-spacing: 1px;
+	  		text-transform: uppercase;
+	  		font-weight: 400;
+	  	}
+
+	  	@include bp(s){
+			width: 100%;
+			font-size: 1em;
+
+			&.even,
+			&.odd{
+				padding: 0;
+			}
+
+			&.odd{
+				margin-bottom: $gutter;
+			}
+	  	}
+
+  }
+}
+
+.services-intro.section{
+	margin-bottom: 0;
+
+	p{
+		margin-bottom: 0;
+	}
 }
 
 .services-list{
@@ -1218,23 +1268,14 @@ h2.push-center{
 		}
 	}	
 
+
 	@include bp(m){
 		ul{
-			@include inline-block;
-			width: 48%;
-			text-align: center;
+			width: auto;
+			max-width: 650px;
+			margin: 0 auto $gutter;
 			float: none;
-
-			li:before{
-				content: none;
-				margin: 0;
-			}
-		}
-	}
-
-	@include bp(m){
-		ul{
-			width: 100%;
+			display: block;
 
 			li{
 				display: inline;
@@ -1245,6 +1286,10 @@ h2.push-center{
 				margin: 0;
 				padding: 0 2px 0 5px;
 				color: $color_accent;
+			}
+
+			li:before{
+				content: none;
 			}
 		}
 	}
@@ -1285,15 +1330,24 @@ h2.push-center{
 }
 
 .cta{
+	margin-bottom: 0;
 
 	h1{
 		margin-bottom: 0;
 	}
 }
 
+.connect-intro{
+	margin-bottom: 0;
+
+	p + p{
+		margin-bottom: 0;
+	}
+}
 
 
-/* SERVICE LINKS 
+
+/* SERVICE
 --------------------------------------------------------------
 -------------------------------------------------------------- */
 .service-links li a{

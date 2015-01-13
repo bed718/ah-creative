@@ -17,7 +17,7 @@ $bp_med:          1000px;
 $bp_sm:           600px;
 
 /*  COLORS  */
-$color_main:         #888;                 
+$color_main:         #555;                 
 $color_accent:       #e4ba27;              
 $color_main_lt:      lighten($color_main, 10%);
 $page_bg:            #fff;
@@ -31,7 +31,7 @@ $font_header:				'Raleway', sans-serif;
 $font_fancy:        'GaramondPremierProLightItalicDisplay', serif;
 
 $font_weight_lt:         100;
-$font_weight_reg:        400;
+$font_weight_reg:        200;
 $font_weight_bold:       700;
 
 /*  TRANSITIONS  */
@@ -60,6 +60,7 @@ $border_dashed_accent:  $color_accent dashed 1px;
 }
 
 
+
 /* PLACEHOLDERS
 -------------------------------------------------------------- */
 %text_btn{
@@ -79,10 +80,10 @@ $border_dashed_accent:  $color_accent dashed 1px;
 }
 
 %a_color_lt{
-  color: $color_main_lt;
+  color: $color_accent;
 
   &:hover{
-    color: $color_accent;
+    color: $color_main;
   }
 }
 
@@ -119,17 +120,24 @@ body{
 
 a{
   @include transition;
-  color: $color_accent;
+  color: lighten($color_main, 20%);
   text-decoration: none;
   
   &:hover{
-    color: $color_main;
+    color: $color_accent;
   }
 }
 
 p{
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 200;
+  text-align: justify;
+
+  a{
+
+    border-bottom: $color_accent dashed 1px;
+  }
 }
 
 ul,
@@ -154,7 +162,7 @@ li.opened span.nolink{color: $color_main;}
 -------------------------------------------------------------- */
 body{
 }
-
+  
 h1, h2, h3, h4{
   font-weight: $font_weight_lt;
   font-family: $font_header;

@@ -1,9 +1,8 @@
 <!-- WELCOME -->
-<div class="home-section">
+<div class="home section">
 <h1>Welcome to Aim High <span>Creative</span></h1>
-<p>Thanks for stopping by. If you’re here, you’re probably in need of some creative backup. Well, you’ve found just that.</p>
-<p>Our team of creative thinkers & doers are here to offer a comprehensive range of services: custom-made websites, digital marketing campaigns, bespoke visual identities, video production, business consulting, (and more!)… we’ve got you covered.</p>
-<p>For over a decade, we've worked with individuals and corporations to craft effective and visually stunning on & off-line experiences. We are dedicated to design and are here to help you and your business Aim High.</p>
+<p>Thanks for stopping by. Our team of creative thinkers & doers is here to offer a comprehensive range of services: custom-made websites, digital marketing campaigns, bespoke visual identities, video production, business consulting, (and more!)... we’ve got you covered. </p>
+<p>For over a decade, we've worked with select individuals and corporations to craft effective and visually stunning on & off-line experiences. We are dedicated to design and here to help you shine.  </p>
 <div class="arrows">
 	<div class="icon-arrow-down2"></div>
 </div>
@@ -11,30 +10,42 @@
 </div>
 
 <!-- TESTIMONIALS -->
-<div id="testimonials" class="home-section dark">
-	<div class="inner">
+<div id="testimonials" class="home section dark">
+	<div class="inside">
 <h1>Happy clients, Happy life.</h1>
 <h2>(Wait, is that how that goes?)</h2>
-<div class="quote">
+<div class="quote odd">
 	&ldquo;Aim High Creative is the best creative agency I have ever worked with! They are the only one but still, they are pretty awesome!&rdquo;
 	<div class="author">~ Test Human</div>
 </div>
 
-<div class="quote">
+<div class="quote even">
 	&ldquo;Oh, you haven't worked with Aim High yet? Well, you're slippin. These guys are the best and, if you want your project to look cool and turn heads, then you should probably quit sitting around and pick up that fancy phone in your pocket and text/call/email Aim High right now. Don't worry, I'll wait...&rdquo;
 	<div class="author">~ Test Human</div>
 </div>
 
-<div class="btn"><a href="creative/contact">Wanna work with us?</a></div>
 </div>
 </div>
 
 
 <!-- More Projects -->
-<div class="home-section">
+<div class="home section">
 	<h1>And that's not all...</h1>
-	<p>This was just a small selection of our past projects. Check out our full list by clicking the button below.</p>
+	<p>This was just a small selection of our past projects. We've been at this for a while so we have more to show you. Check out our full list by clicking the button below.</p>
+	<div class="arrows">
+		<div class="icon-arrow-down2"></div>
+	</div>
 	<div class="btn"><a href="creative/projects">Yes, this button.</a></div>
+</div>
+
+
+<!-- AFTER PROJECTS -->
+<div class="home section dark bottom">	
+	<h1>Not too shabby, right!?<br /><br />Want to create something together?</h1>
+	<div class="btn big">
+		<a href="/contact">Let's do this!</a>
+	</div>
+	
 </div>
 
 
@@ -53,8 +64,8 @@
 	<div >
 		
 		<div class="connect-intro section">
-			<p>Need some help making your brand shine? Want to launch an amazing campaign for your new product? Have a cool idea? Or just have a random thought you think we might dig? </p>
-			<p>We are always excited to make valuable new conections. Feel free to send us an email or give us a ring and let’s chat. </p>
+			<p>Need some help making your brand shine? Want to launch an amazing campaign for your new product? Craving a stunning video to capture the essence of your identity? Just have a random idea you think we might dig? </p>
+			<p>We are always excited to make valuable new connections. Feel free to send us an email or give us a ring and let’s chat. </p>
 		</div>
 
 		<div class="arrows">
@@ -97,7 +108,7 @@
 	<div class="">
 
 		<div class="services-intro section">
-			<p>If we could spend all day making stuff, we would... oh wait - WE DO! Take a look at our services below, check out some of our past <a href="/projects">projects,</a> then give us a <a href="/contact">shout</a> and we can discuss creating something amazing together. </p>
+			<p>If we could spend all day making stuff, we would... oh wait, WE DO! Take a look at our services below, check out some of our past <a href="/projects">projects,</a> then give us a <a href="/contact">shout</a> and we can discuss creating something amazing together. </p>
 		</div>
 
 		<div class="arrows">
