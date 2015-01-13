@@ -43,7 +43,7 @@
 <div class="home section dark bottom">	
 	<h1>Not too shabby, right!?<br /><br />Want to create something together?</h1>
 	<div class="btn big">
-		<a href="/contact">Let's do this!</a>
+		<a href="/creative/contact">Let's do this!</a>
 	</div>
 	
 </div>

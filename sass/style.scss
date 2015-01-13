@@ -600,7 +600,8 @@
 }
 
 .view-id-projects .view-content,
-.full{
+.full,
+.page-taxonomy #block-system-main{
 	max-width: $bp_lg;
 	margin: auto;
 	padding-bottom: $gutter;
@@ -610,8 +611,8 @@
 	}
 }
 
-.view-id-projects{
-	padding: 0 $gutter;
+.view-id-projects .view-content{
+	
 
 	@include bp(m){
 		padding: 0 ($gutter / 3) $gutter;
@@ -758,10 +759,14 @@
 }
 
 .page-creative{
-
 	h1#page-title{
 		display: none;
 	}
+	&.page-creative-projects{
+	h1#page-title{
+		display: block;
+	}
+}
 
 	#main{
 		/*padding-top: 100px;*/
@@ -774,6 +779,8 @@
 		position: relative;
 	}
 }
+
+
 
 
 
@@ -946,7 +953,7 @@
 	
 	}
 
-	.field-name-field-services + .field-name-field-services:before{
+	.field-name-field-services:after{
 		padding: 0 2px;
 		content: "\002F";
 		color: $color_accent;
@@ -1086,6 +1093,11 @@ h2.push-center{
 /* BASIC PAGES
 --------------------------------------------------------------
 -------------------------------------------------------------- */
+.panels-flexible-region-10-center{
+	float: none;
+	width: 100%;
+}
+
 .section{
 	@include pie-clearfix;
 	margin-bottom: $gutter;

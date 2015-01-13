@@ -122,6 +122,11 @@ a{
   @include transition;
   color: lighten($color_main, 20%);
   text-decoration: none;
+
+  &.colorbox{
+    text-decoration: none !important;
+    border-bottom: none !important;
+  }
   
   &:hover{
     color: $color_accent;
