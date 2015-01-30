@@ -1840,7 +1840,7 @@ h2.push-center {
 
 /* line 1173, ../sass/style.scss */
 #testimonials {
-  background: url(../images/Aim-High-City.jpg) no-repeat center top fixed;
+  background: #e4ba27 url(../images/Aim-High-City.jpg) no-repeat center top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
