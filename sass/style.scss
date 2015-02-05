@@ -599,6 +599,10 @@
 	}
 }
 
+.view-content{
+	@include pie-clearfix;
+}
+
 .view-id-projects .view-content,
 .full,
 .page-taxonomy #block-system-main{
