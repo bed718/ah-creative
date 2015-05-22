@@ -25,7 +25,7 @@
 	    Aim High <span>Agency</span>
 	  </div>
 
-	  <h3>&ldquo;Yup, we can do that.&rdquo;</h3>
+	  <h3>&ldquo;The Small Agency for Small Business.&rdquo;</h3>
 	  <div class="arrows">
 		<div class="icon-arrow-down2"></div>
 	</div>
