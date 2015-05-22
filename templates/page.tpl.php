@@ -5,7 +5,7 @@
 	<div id="header">
 		<div class="close-btn"><a href="#" class="icon-cross"></a></div>
 		<div class="title">
-			<a href="/creative">Aim High <span>Creative</span></a>
+			<a href="/creative">Aim High <span>Agency</span></a>
 		</div>
 		<div id="main-nav">
 			<?php echo render($page['nav_main']); ?>
