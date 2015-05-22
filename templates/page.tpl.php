@@ -22,13 +22,13 @@
 	<div id="creative-home">
 	  <div class="inner">
 	  <div class="title">
-	    <a href="/creative"><img src="/sites/all/themes/base_creative/images/ah-title.svg" alt="Aim High : Creative"></a>
+	    Aim High <span>Agency</span>
 	  </div>
 
 	  <h3>&ldquo;Yup, we can do that.&rdquo;</h3>
-	  <div class="arrow-down">
-	    <a href="/creative"><img src="/sites/all/themes/base_creative/images/arrow-down.svg" alt="down arrow"></a>
-	  </div>
+	  <div class="arrows">
+		<div class="icon-arrow-down2"></div>
+	</div>
 	</div>
 	  <div class="skyline"><img src="/sites/all/themes/base_creative/images/ah-skyline-no-title-white.svg" alt=""></div>
 

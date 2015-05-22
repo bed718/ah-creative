@@ -720,15 +720,28 @@
 		margin: 40px auto 0;
 	}
 
+	.title{
+		font-size: 5em;
+		text-align: center;
+		font-family: $font_header;
+		text-transform: uppercase;	
+		color: $color_accent;
+
+		span{
+			font-weight: 600;
+		}
+
+	}
+
 	.inner{
 		/*background-color: rgba(#373737, .9);*/
 		text-align: center;
-		width: 500px;
+		width: 100%;
 		height: 200px;
 		position: fixed;
 		top: 50%;
-		left: 50%;
-		margin: -100px 0 0 -250px;
+		left: 0;
+		margin: -150px 0 0 0;
 		z-index: 1;
 
 		h3{
@@ -898,10 +911,9 @@
 		@include bp(m){
 			padding: ($gutter / 2);
 		}
-
-
 		
 	}
+
 
 	.website{
 		margin-top: 20px;
@@ -919,6 +931,31 @@
 
 			&:hover{
 				background-color: $color_accent;
+			}
+		}
+	}
+
+	.body{
+
+
+		.quote{
+			margin-bottom: $gutter;
+			max-width: 800px;
+			margin: 0 auto 60px;
+			background-color: $color_accent;
+			padding: $gutter;
+			font-size: 32px;
+			color: #fff;
+			font-family: $font_header;
+			text-align: left;
+			line-height: normal;
+
+			.author{
+				display: block;
+				text-align: right;
+				font-size: 20px;
+				font-family: $font_main;
+				margin-top: 20px;
 			}
 		}
 	}
@@ -1171,6 +1208,40 @@ h2.push-center{
 		}
 	}
 
+}
+
+#front-divider-1{
+	background: $color_accent url(../images/Aim-High-City.jpg) no-repeat center top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  padding: $gutter;
+  text-align: center;
+
+  .quote{
+	  max-width: 600px;
+	  font-family: $font_header;
+	  font-size: 40px;
+	  text-align: left;
+	  margin: auto;
+	  padding: $gutter 0;
+
+	  .author{
+	  	font-size: 24px;
+	  	font-family: $font_main;
+	  	text-align: right;
+	  	margin-top: 20px;
+	  }
+  }
+}
+
+#select-projects{
+
+	.view-content{
+		padding-bottom: 0;
+	}
 }
 
 
