@@ -775,6 +775,8 @@
 	}
 }
 
+
+
 .page-creative{
 	h1#page-title{
 		display: none;
@@ -810,6 +812,11 @@
 	h1#page-title{
 		display: none;
 	}
+}
+
+.view-footer{
+	margin-top: -60px;
+	margin-bottom: $gutter * 2;
 }
 
 .project.teaser{
@@ -1141,7 +1148,7 @@ h2.push-center{
 
 .section{
 	@include pie-clearfix;
-	margin-bottom: $gutter;
+	margin-bottom: $gutter * 2;
 	clear: both;
 
 	p{
@@ -1188,10 +1195,14 @@ h2.push-center{
 	&.dark{
 		background-color: $color_accent;
 		color: #fff;
-		padding: $gutter;
+		padding: $gutter * 2;
 
 		&.bottom{
 			margin-bottom: 0;
+		}
+
+		.arrows{
+			color: #fff;
 		}
 
 		.btn{
@@ -1206,8 +1217,33 @@ h2.push-center{
 				}
 			}
 		}
+
+		a{
+			color: #fff;
+
+			&:hover{
+				color: $color_main;
+			}
+		}
+
+		
 	}
 
+	&.med{
+		background-color: $page_bg_lt;
+		padding: $gutter * 2;
+
+		&.bottom{
+			margin-bottom: 0;
+		}
+
+		
+	}
+
+}
+
+.panel-separator{
+	margin: 0 !important;
 }
 
 #front-divider-1{
@@ -1237,6 +1273,53 @@ h2.push-center{
   }
 }
 
+#intro-1{
+	margin-bottom: 0;
+
+	h1{
+		font-size: 6em;
+	}
+	p{
+		text-align: center;
+		font-size: 35px;
+		opacity: 0;
+	}
+
+	h2{
+		text-align: center;
+		font-size: 40px;
+		color: $color_accent;
+	}
+}
+
+#cta{
+	margin-bottom: 0;
+
+	h2{
+		margin-top: 60px;
+		text-align: center;
+	}
+}
+
+#aha-goals{
+	margin-bottom: 0;
+
+	.btn{
+		
+		a{
+			font-size: 1.5em;
+		}
+	}
+
+	.translate{
+		
+	}
+
+	.translate.first{
+		display: block;
+	}
+}
+
 #select-projects{
 
 	.view-content{
@@ -1244,162 +1327,19 @@ h2.push-center{
 	}
 }
 
+#agency{
 
-#testimonials{
-	background: $color_accent url(../images/Aim-High-City.jpg) no-repeat center top fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  padding: $gutter;
-
-  text-align: center;
-
-  h1{
-  	margin-bottom: 10px;
-  }
-
-  h2{
-  	font-size: 1em;
-  	text-align: center;
-  	margin-bottom: $gutter;
-  	font-weight: 200;
-  	margin-top: 20px;
-  	letter-spacing: 0;
-  	text-transform: none;
-  }
-
-  .quote{
-	  	@include inline-block;
-	  	vertical-align: top;
-	  	width: 49%;
-	  	line-height: 28px;
-	  	font-size: 1.2em;
-	  	font-weight: 200;
-	  	text-align: left;
-
-	  	&.even{
-	  		padding-left: $gutter / 2;
-	  	}
-
-	  	&.odd{
-	  		padding-right: $gutter / 2;
-	  	}
-
-	  	.author{
-	  		text-align: right;
-	  		font-family: $font_header;
-	  		font-size: .6em;
-	  		letter-spacing: 1px;
-	  		text-transform: uppercase;
-	  		font-weight: 400;
-	  	}
-
-	  	@include bp(s){
-			width: 100%;
-			font-size: 1em;
-
-			&.even,
-			&.odd{
-				padding: 0;
-			}
-
-			&.odd{
-				margin-bottom: $gutter;
-			}
-	  	}
-
-  }
-}
-
-.services-intro.section{
-	margin-bottom: 0;
-
-	p{
-		margin-bottom: 0;
-	}
-}
-
-.services-list{
-	position: relative;
-
-	ul{
-		@include inline-block;
-		float: left;
-		margin-bottom: $gutter;
-		width: 25%;
-		vertical-align: top;
-		
-		li{
-			margin-bottom: 5px;
-		}
-
-		li:before{
-			content: '•';
-			margin: 0 10px 0 0;
-			color: $color_accent;
-		}
-	}
-
-	.image{
-		clear: both;
+	h2{
 		text-align: center;
-		padding-bottom: $gutter;
-		line-height: 0;
+		font-size: 1.5em;
+	}
 
-		img{
-			width: 100%;
-			max-width: 800px;
-			height: auto;
-		}
-	}	
-
-
-	@include bp(m){
-		ul{
-			width: auto;
-			max-width: 650px;
-			margin: 0 auto $gutter;
-			float: none;
-			display: block;
-
-			li{
-				display: inline;
-			}
-
-			li:after{
-				content: "\002F";
-				margin: 0;
-				padding: 0 2px 0 5px;
-				color: $color_accent;
-			}
-
-			li:before{
-				content: none;
-			}
+	#services{
+		p{
+			text-align: center;
 		}
 	}
 }
-
-.connect-info{
-	text-align: center;
-
-	p{
-		margin-bottom: $gutter/2;
-		text-align: center;
-		font-size: 2em;
-
-		@include bp(s){
-			font-size: 1.5em;
-		}
-	}
-
-	.social-icons{
-		font-size: 2em;
-	}
-}
-
 
 
 .arrows{
@@ -1578,6 +1518,9 @@ body.mceContentBody {
 	/*text-indent: -999px !important;*/
 }
 
+.text-center{
+	text-align: center !important;
+}
 
 
 

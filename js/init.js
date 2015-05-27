@@ -49,10 +49,29 @@
 				}
 			});
 
+
+			win.scroll( function(){
+		    
+		       fadeOnScroll('#intro-1 p');
+		    
+		    });
+
+			function fadeOnScroll(target){
+	        $(target).each( function(i){
+	            var $this = $(this);
+
+	            var bottom_of_object = $this.offset().top + $this.outerHeight();
+	            var bottom_of_window = win.scrollTop() + win.height();
+	            
+	            if( bottom_of_window > bottom_of_object ){ 
+               	$this.animate({'opacity':'1'}, 500);   
+	            }
+	            
+	        }); 
+			}
+
 		}
 	}
-
-
 
 	Drupal.behaviors.bg_init = {
 		attach: function (context, settings) {
@@ -75,6 +94,39 @@
 
 			//$('body').tubular({videoId: 'sOVfuvPgA6I'});
 			
+
+		}
+	}
+
+
+	Drupal.behaviors.translate = {
+		attach: function (context, settings) {
+			
+			function translate(holder){
+				var holder = $(holder);
+				$('.translate', holder).hide();
+				
+
+				$('.translate.first').show();
+
+				$('.translate .trigger', holder).click(function(event) {
+					var target_index = $(this).data('target');
+					var this_target = $('[data-index="' + target_index + '"]', holder);
+					nextItem(holder, this_target);
+
+					return false;
+				});
+
+
+			}
+
+			function nextItem(holder, target){
+				$('.translate', holder).hide();
+				target.show();
+			}
+
+			translate('#aha-goals');
+			translate('#cta');
 
 		}
 	}

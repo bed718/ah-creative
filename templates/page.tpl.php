@@ -25,7 +25,7 @@
 	    Aim High <span>Agency</span>
 	  </div>
 
-	  <h3>&ldquo;The Small Agency for Small Business.&rdquo;</h3>
+	  <h3>The Small Agency for Small Businesses.</h3>
 	  <div class="arrows">
 		<div class="icon-arrow-down2"></div>
 	</div>
@@ -58,9 +58,38 @@
 
 	      <div id="content">
 				<?php echo render($page['content']); ?>
+
+				<div id="cta" class="section dark">
+					<div class="translate first" data-index="5">
+						<h1>Like what you see?</h1>
+						<div class="arrows">
+							<div class="icon-arrow-down2"></div>
+						</div>
+						<div class="btn"><a href="">hello@aimhighagency.com</a></div>
+						<h2><a href="" class="trigger" data-target="6">( Translate )</a></h2>
+					</div>
+					<div class="translate" data-index="6">
+						<h1>Not too shabby, right?</h1>
+						<div class="arrows">
+							<div class="icon-arrow-down2"></div>
+						</div>
+						<div class="btn"><a href="">hello@aimhighagency.com</a></div>
+						<h2><a href="" class="trigger" data-target="7">( Translate... again )</a></h2>
+					</div>
+					<div class="translate" data-index="7">
+						<h1>Don't act like you're not impressed.</h1>
+						<div class="arrows">
+							<div class="icon-arrow-down2"></div>
+						</div>
+						<div class="btn"><a href="">hello@aimhighagency.com</a></div>
+						<h2><a href="" class="trigger" data-target="5">( Reset )</a></h2>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+
+
 
 	<div id="footer" class="bg-light">
 		<div class="skyline"><img src="/sites/all/themes/base_creative/images/ah-skyline-no-title-dark.svg" alt=""></div>
