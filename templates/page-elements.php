@@ -57,6 +57,18 @@
 
 
 
+<!-- Projects Header -->
+<div id="projects-header" class="bg">
+	<div class="bg-image"></div>
+	<div class="bg-body">
+		<div class="connect-bg bg-box">
+			<div class="inner">
+				YOU <span class="accent">+</span> AIM HIGH <span class="accent">=</span> <span class="fancy">Something pretty awesome</span><span class="accent">.</span>
+			</div>
+		</div>
+	</div>
+</div>
+
 
 
 

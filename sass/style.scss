@@ -490,7 +490,7 @@
 .has-bg{
 	
 	.body-top{
-		padding-top: 80vh;
+		padding-top: 60vh;
 		position: relative;
 
 		img{
@@ -539,7 +539,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 80vh;
+	height: 60vh;
 	width: 100%;
 	z-index: -1;
 
@@ -703,6 +703,14 @@
 	}
 }
 
+.page-creative-projects{
+	.body-top{
+		display: block;
+		padding-top: 60vh !important;
+		position: relative !important;
+	}
+}
+
 #creative-home{
 	height: 100vh;
 	background-color: $page_bg_med;
@@ -790,7 +798,7 @@
 	#main{
 		/*padding-top: 100px;*/
 		> .inner{
-			padding-top: 180px;
+			padding-top: 80px;
 		}
 	}
 
@@ -1316,6 +1324,17 @@ h2.push-center{
 
 	.translate.first{
 		display: block;
+	}
+}
+
+#projects-header{
+
+	.bg-image{
+		background: url(/sites/aimhighforlife.com/files/AIMHIGH-Astroaunt-hue.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 	}
 }
 

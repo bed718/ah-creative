@@ -27,6 +27,8 @@ function base_creative_preprocess_html(&$vars){
   		$vars['classes_array'][] = "no-bg";
   }
 
+  //dpm($vars);
+
 	
 }
 
