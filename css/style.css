@@ -1952,46 +1952,51 @@ h2.push-center {
   margin-bottom: 0;
 }
 /* line 1286, ../sass/style.scss */
+#intro-1 h1, #intro-1 h2, #intro-1 p {
+  opacity: 0;
+  position: relative;
+  top: 20px;
+}
+/* line 1292, ../sass/style.scss */
 #intro-1 h1 {
   font-size: 6em;
 }
-/* line 1289, ../sass/style.scss */
+/* line 1295, ../sass/style.scss */
 #intro-1 p {
   text-align: center;
   font-size: 35px;
-  opacity: 0;
 }
-/* line 1295, ../sass/style.scss */
+/* line 1300, ../sass/style.scss */
 #intro-1 h2 {
   text-align: center;
   font-size: 40px;
   color: #e4ba27;
 }
 
-/* line 1302, ../sass/style.scss */
+/* line 1307, ../sass/style.scss */
 #cta {
   margin-bottom: 0;
 }
-/* line 1305, ../sass/style.scss */
+/* line 1310, ../sass/style.scss */
 #cta h2 {
   margin-top: 60px;
   text-align: center;
 }
 
-/* line 1311, ../sass/style.scss */
+/* line 1316, ../sass/style.scss */
 #aha-goals {
   margin-bottom: 0;
 }
-/* line 1316, ../sass/style.scss */
+/* line 1321, ../sass/style.scss */
 #aha-goals .btn a {
   font-size: 1.5em;
 }
-/* line 1325, ../sass/style.scss */
+/* line 1330, ../sass/style.scss */
 #aha-goals .translate.first {
   display: block;
 }
 
-/* line 1332, ../sass/style.scss */
+/* line 1337, ../sass/style.scss */
 #projects-header .bg-image {
   background: url(/sites/aimhighforlife.com/files/AIMHIGH-Astroaunt-hue.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -2000,52 +2005,52 @@ h2.push-center {
   background-size: cover;
 }
 
-/* line 1343, ../sass/style.scss */
+/* line 1348, ../sass/style.scss */
 #select-projects .view-content {
   padding-bottom: 0;
 }
 
-/* line 1350, ../sass/style.scss */
+/* line 1355, ../sass/style.scss */
 #agency h2 {
   text-align: center;
   font-size: 1.5em;
 }
-/* line 1356, ../sass/style.scss */
+/* line 1361, ../sass/style.scss */
 #agency #services p {
   text-align: center;
 }
 
-/* line 1363, ../sass/style.scss */
+/* line 1368, ../sass/style.scss */
 .arrows {
   text-align: center;
   font-size: 2em;
   color: #e4ba27;
 }
-/* line 1368, ../sass/style.scss */
+/* line 1373, ../sass/style.scss */
 .arrows div {
   margin: 60px 0;
 }
 @media (max-width: 600px) {
-  /* line 1368, ../sass/style.scss */
+  /* line 1373, ../sass/style.scss */
   .arrows div {
     margin: 20px 0;
   }
 }
 
-/* line 1377, ../sass/style.scss */
+/* line 1382, ../sass/style.scss */
 .cta {
   margin-bottom: 0;
 }
-/* line 1380, ../sass/style.scss */
+/* line 1385, ../sass/style.scss */
 .cta h1 {
   margin-bottom: 0;
 }
 
-/* line 1385, ../sass/style.scss */
+/* line 1390, ../sass/style.scss */
 .connect-intro {
   margin-bottom: 0;
 }
-/* line 1388, ../sass/style.scss */
+/* line 1393, ../sass/style.scss */
 .connect-intro p + p {
   margin-bottom: 0;
 }
@@ -2053,7 +2058,7 @@ h2.push-center {
 /* SERVICE
 --------------------------------------------------------------
 -------------------------------------------------------------- */
-/* line 1398, ../sass/style.scss */
+/* line 1403, ../sass/style.scss */
 .service-links li a {
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -2064,37 +2069,37 @@ h2.push-center {
   *zoom: 1;
   *display: inline;
 }
-/* line 1403, ../sass/style.scss */
+/* line 1408, ../sass/style.scss */
 .service-links li a img {
   display: none;
 }
-/* line 1407, ../sass/style.scss */
+/* line 1412, ../sass/style.scss */
 .service-links li a.service-links-facebook:before {
   content: "\e605";
 }
-/* line 1411, ../sass/style.scss */
+/* line 1416, ../sass/style.scss */
 .service-links li a.service-links-twitter:before {
   content: "\e604";
 }
-/* line 1415, ../sass/style.scss */
+/* line 1420, ../sass/style.scss */
 .service-links li a.service-links-google-plus:before {
   content: "\e606";
 }
-/* line 1419, ../sass/style.scss */
+/* line 1424, ../sass/style.scss */
 .service-links li a.service-links-pinterest-button:before {
   content: "\e607";
 }
 
-/* line 1424, ../sass/style.scss */
+/* line 1429, ../sass/style.scss */
 .service-links li.service-links-pinterest-button a:before {
   content: "\e607";
 }
 
-/* line 1428, ../sass/style.scss */
+/* line 1433, ../sass/style.scss */
 .teaser .service-links {
   float: left;
 }
-/* line 1431, ../sass/style.scss */
+/* line 1436, ../sass/style.scss */
 .teaser .service-links li {
   display: inline-block;
   vertical-align: middle;
@@ -2104,16 +2109,16 @@ h2.push-center {
   margin: 0 10px 0 0;
 }
 
-/* line 1438, ../sass/style.scss */
+/* line 1443, ../sass/style.scss */
 .teaser li.service-links-pinterest-button {
   display: none;
 }
 
-/* line 1442, ../sass/style.scss */
+/* line 1447, ../sass/style.scss */
 .full .service-links {
   text-align: center;
 }
-/* line 1445, ../sass/style.scss */
+/* line 1450, ../sass/style.scss */
 .full .service-links li {
   display: inline-block;
   vertical-align: middle;
@@ -2122,7 +2127,7 @@ h2.push-center {
   *display: inline;
   margin: 0 10px;
 }
-/* line 1450, ../sass/style.scss */
+/* line 1455, ../sass/style.scss */
 .full .service-links a {
   background-image: none  !important;
   font-size: 40px !important;
@@ -2134,44 +2139,44 @@ h2.push-center {
   vertical-align: middle !important;
 }
 
-/* line 1463, ../sass/style.scss */
+/* line 1468, ../sass/style.scss */
 .full .share-post {
   text-align: center;
   padding-top: 60px;
   margin-bottom: 20px;
 }
-/* line 1468, ../sass/style.scss */
+/* line 1473, ../sass/style.scss */
 .full .share-post h2 {
   font-weight: 200;
   color: #e4ba27;
   font-size: 30px;
   margin-bottom: 10px;
 }
-/* line 1475, ../sass/style.scss */
+/* line 1480, ../sass/style.scss */
 .full .share-post h3 {
   font-family: "GaramondPremierProLightDisplay", serif;
   font-style: italic;
   margin-bottom: 10px;
 }
-/* line 1481, ../sass/style.scss */
+/* line 1486, ../sass/style.scss */
 .full .share-post ul li {
   margin: 0 10px;
 }
-/* line 1486, ../sass/style.scss */
+/* line 1491, ../sass/style.scss */
 .full .share-post .pinterest {
   background: url(../images/service_links/pinterest.png) no-repeat;
   width: 80px;
   height: 80px;
   display: block;
 }
-/* line 1493, ../sass/style.scss */
+/* line 1498, ../sass/style.scss */
 .full .share-post a {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 1497, ../sass/style.scss */
+/* line 1502, ../sass/style.scss */
 .full .share-post a:hover {
   background-color: #bbbbbb;
   color: #e4ba27;
@@ -2179,40 +2184,40 @@ h2.push-center {
 
 /* EXTRAS
 -------------------------------------------------------------- */
-/* line 1506, ../sass/style.scss */
+/* line 1511, ../sass/style.scss */
 body.cke_show_borders {
   width: 800px !important;
   min-width: 800px;
   margin: 0 auto;
 }
 
-/* line 1508, ../sass/style.scss */
+/* line 1513, ../sass/style.scss */
 .image-post_full {
   position: relative;
   z-index: 1;
 }
 
-/* line 1513, ../sass/style.scss */
+/* line 1518, ../sass/style.scss */
 div.krumo-root {
   width: 800px;
   margin-left: 500px;
 }
 
-/* line 1518, ../sass/style.scss */
+/* line 1523, ../sass/style.scss */
 body.mceContentBody {
   width: 800px !important;
   min-width: 800px;
   margin: 0 auto;
 }
 
-/* line 1525, ../sass/style.scss */
+/* line 1530, ../sass/style.scss */
 #cboxContent, .cboxPhoto {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
 }
 
-/* line 1529, ../sass/style.scss */
+/* line 1534, ../sass/style.scss */
 #cboxClose.cbox-close-plain {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -2225,7 +2230,7 @@ body.mceContentBody {
   /*text-indent: -999px !important;*/
 }
 
-/* line 1539, ../sass/style.scss */
+/* line 1544, ../sass/style.scss */
 .text-center {
   text-align: center !important;
 }

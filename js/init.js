@@ -52,7 +52,7 @@
 
 			win.scroll( function(){
 		    
-		       fadeOnScroll('#intro-1 p');
+		       fadeOnScroll('#intro-1 p, #intro-1 h1, #intro-1 h2');
 		    
 		    });
 
@@ -64,7 +64,7 @@
 	            var bottom_of_window = win.scrollTop() + win.height();
 	            
 	            if( bottom_of_window > bottom_of_object ){ 
-               	$this.animate({'opacity':'1'}, 500);   
+               	$this.animate({'opacity':'1', 'top' : 0}, 500);   
 	            }
 	            
 	        }); 

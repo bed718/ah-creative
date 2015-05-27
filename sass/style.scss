@@ -1282,6 +1282,12 @@ h2.push-center{
 
 #intro-1{
 	margin-bottom: 0;
+	
+	h1, h2, p{
+		opacity: 0;
+		position: relative;
+		top: 20px;
+	}
 
 	h1{
 		font-size: 6em;
@@ -1289,7 +1295,6 @@ h2.push-center{
 	p{
 		text-align: center;
 		font-size: 35px;
-		opacity: 0;
 	}
 
 	h2{
