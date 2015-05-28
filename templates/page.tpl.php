@@ -143,7 +143,27 @@
 </div>
 
 
+<div id="connect">
+	<div class="bg"></div>
+	<div class="inner">
+		<div class="info">
+			<h1>Connect</h1>
+			<div class="arrows">
+				<div class="icon-arrow-down2"></div>
+			</div>
+			<div class="email"><a href="mailto:hello@aimhighagency.com">hello@aimhighagency.com</a></div>
+			<div class="phone">(323) 388-7348</div>
+			<div class="social-icons">
+				<a href="http://twitter.com/aimhighforlife" class="icon-twitter" target="_blank"></a>
+				<a href="http://instagram.com/aimhighforlife" class="icon-instagram" target="_blank"></a>
+				<a href="http://facebook.com/aimhighforlife" class="icon-facebook" target="_blank"></a>
+				<a href="https://www.pinterest.com/aimhighforlife" class="icon-pinterest" target="_blank"></a>
+			</div>
 
+			<a href="#" class="icon-cross" ></a>
+		</div>
+	</div>
+</div>
 
 
 

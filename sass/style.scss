@@ -490,7 +490,7 @@
 .has-bg{
 	
 	.body-top{
-		padding-top: 60vh;
+		padding-top: 80vh;
 		position: relative;
 
 		img{
@@ -539,7 +539,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 60vh;
+	height: 80vh;
 	width: 100%;
 	z-index: -1;
 
@@ -706,7 +706,7 @@
 .page-creative-projects{
 	.body-top{
 		display: block;
-		padding-top: 60vh !important;
+		padding-top: 80vh !important;
 		position: relative !important;
 	}
 }
@@ -1301,6 +1301,7 @@ h2.push-center{
 		text-align: center;
 		font-size: 40px;
 		color: $color_accent;
+		opacity: 0;
 	}
 }
 
@@ -1392,6 +1393,85 @@ h2.push-center{
 
 	p + p{
 		margin-bottom: 0;
+	}
+}
+
+#connect{
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 200;
+	text-align: center;
+	//background-color: rgba(#fff, 0.9);
+
+	.bg{
+		position: relative;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		//background-color: rgba(#fff, 0.9);
+		cursor: pointer;
+	}
+
+	.inner{
+		@include border-radius(100vh);
+		display: table;
+		background-color: rgba(#2f2f2f, .98);
+		color: $color_accent;
+		height: $connect_width;
+		width: $connect_width;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -$connect_width / 2;
+		margin-left: -$connect_width / 2;
+
+	}
+
+	.info{
+		display: table-cell;
+		vertical-align: middle;
+		font-family: $font_header;
+		//padding-bottom: 30px;
+	}
+
+	h1{
+		margin-bottom: 30px;
+	}
+
+	a{
+		@extend %a_color_lt;
+	}
+
+	.arrows div{
+		margin: 30px 0;
+	}
+
+	.email{
+		font-size: 2em;
+	}
+
+	.phone{
+		font-size: 1.5em;
+		margin-top: 20px;
+	}
+
+	.social-icons{
+		margin-top: 60px;
+
+		a{
+			font-size: 2em;
+		}
+	}
+
+	.icon-cross{
+		font-size: 2em;
+		margin-top: 60px;
+		@include inline-block;
 	}
 }
 

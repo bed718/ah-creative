@@ -343,16 +343,16 @@ li.service-links-pinterest-button {
 -------------------------------------------------------------- */
 /* PLACEHOLDERS
 -------------------------------------------------------------- */
-/* line 82, ../sass/_base.scss */
-h2 a, #footer a, #footer .social-icons a, .social-icons a {
+/* line 83, ../sass/_base.scss */
+h2 a, #footer a, #footer .social-icons a, .social-icons a, #connect a {
   color: #e4ba27;
 }
-/* line 85, ../sass/_base.scss */
-h2 a:hover, #footer a:hover, .social-icons a:hover {
+/* line 86, ../sass/_base.scss */
+h2 a:hover, #footer a:hover, .social-icons a:hover, #connect a:hover {
   color: #555;
 }
 
-/* line 98, ../sass/_base.scss */
+/* line 99, ../sass/_base.scss */
 .bull {
   color: #e4ba27;
   margin: 0 10px;
@@ -360,7 +360,7 @@ h2 a:hover, #footer a:hover, .social-icons a:hover {
 
 /* BASIC STYLES
 -------------------------------------------------------------- */
-/* line 108, ../sass/_base.scss */
+/* line 109, ../sass/_base.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -368,7 +368,7 @@ h2 a:hover, #footer a:hover, .social-icons a:hover {
   -webkit-backface-visibility: hidden;
 }
 
-/* line 113, ../sass/_base.scss */
+/* line 114, ../sass/_base.scss */
 body {
   font-family: "GaramondPremierProLightDisplay", serif;
   background-color: #fff;
@@ -377,7 +377,7 @@ body {
   font-weight: 100;
 }
 
-/* line 121, ../sass/_base.scss */
+/* line 122, ../sass/_base.scss */
 a {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -386,29 +386,29 @@ a {
   color: #888888;
   text-decoration: none;
 }
-/* line 126, ../sass/_base.scss */
+/* line 127, ../sass/_base.scss */
 a.colorbox {
   text-decoration: none !important;
   border-bottom: none !important;
 }
-/* line 131, ../sass/_base.scss */
+/* line 132, ../sass/_base.scss */
 a:hover {
   color: #e4ba27;
 }
 
-/* line 136, ../sass/_base.scss */
+/* line 137, ../sass/_base.scss */
 p {
   font-size: 18px;
   line-height: 28px;
   font-weight: 200;
   text-align: justify;
 }
-/* line 142, ../sass/_base.scss */
+/* line 143, ../sass/_base.scss */
 p a {
   border-bottom: #e4ba27 dashed 1px;
 }
 
-/* line 152, ../sass/_base.scss */
+/* line 153, ../sass/_base.scss */
 ul,
 ul.menu,
 ul.menu li {
@@ -418,7 +418,7 @@ ul.menu li {
   padding: 0;
 }
 
-/* line 161, ../sass/_base.scss */
+/* line 162, ../sass/_base.scss */
 li a.active,
 li.opened span.nolink {
   color: #555;
@@ -426,31 +426,31 @@ li.opened span.nolink {
 
 /* TYPOGRAPHY STYLES
 -------------------------------------------------------------- */
-/* line 175, ../sass/_base.scss */
+/* line 176, ../sass/_base.scss */
 h1, h2, h3, h4 {
   font-weight: 100;
   font-family: "Raleway", sans-serif;
 }
 
-/* line 180, ../sass/_base.scss */
+/* line 181, ../sass/_base.scss */
 h1 {
   font-size: 3em;
   text-align: center;
   margin-bottom: 60px;
 }
 @media (max-width: 600px) {
-  /* line 180, ../sass/_base.scss */
+  /* line 181, ../sass/_base.scss */
   h1 {
     font-size: 20px;
   }
 }
 
-/* line 190, ../sass/_base.scss */
+/* line 191, ../sass/_base.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 194, ../sass/_base.scss */
+/* line 195, ../sass/_base.scss */
 .section-title {
   font-weight: 100;
   font-family: "Raleway", sans-serif;
@@ -458,18 +458,18 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* line 201, ../sass/_base.scss */
+/* line 202, ../sass/_base.scss */
 em {
   font-family: "GaramondPremierProLightItalicDisplay", serif;
 }
 
-/* line 205, ../sass/_base.scss */
+/* line 206, ../sass/_base.scss */
 #page-title,
 h2.pane-title {
   font-size: 3em;
 }
 @media (max-width: 600px) {
-  /* line 205, ../sass/_base.scss */
+  /* line 206, ../sass/_base.scss */
   #page-title,
   h2.pane-title {
     font-size: 30px;
@@ -1074,7 +1074,7 @@ h2.pane-title {
 
 /* line 492, ../sass/style.scss */
 .has-bg .body-top {
-  padding-top: 60vh;
+  padding-top: 80vh;
   position: relative;
 }
 /* line 496, ../sass/style.scss */
@@ -1123,7 +1123,7 @@ h2.pane-title {
   position: fixed;
   top: 0;
   left: 0;
-  height: 60vh;
+  height: 80vh;
   width: 100%;
   z-index: -1;
 }
@@ -1310,7 +1310,7 @@ h2.pane-title {
 /* line 707, ../sass/style.scss */
 .page-creative-projects .body-top {
   display: block;
-  padding-top: 60vh !important;
+  padding-top: 80vh !important;
   position: relative !important;
 }
 
@@ -1971,32 +1971,33 @@ h2.push-center {
   text-align: center;
   font-size: 40px;
   color: #e4ba27;
+  opacity: 0;
 }
 
-/* line 1307, ../sass/style.scss */
+/* line 1308, ../sass/style.scss */
 #cta {
   margin-bottom: 0;
 }
-/* line 1310, ../sass/style.scss */
+/* line 1311, ../sass/style.scss */
 #cta h2 {
   margin-top: 60px;
   text-align: center;
 }
 
-/* line 1316, ../sass/style.scss */
+/* line 1317, ../sass/style.scss */
 #aha-goals {
   margin-bottom: 0;
 }
-/* line 1321, ../sass/style.scss */
+/* line 1322, ../sass/style.scss */
 #aha-goals .btn a {
   font-size: 1.5em;
 }
-/* line 1330, ../sass/style.scss */
+/* line 1331, ../sass/style.scss */
 #aha-goals .translate.first {
   display: block;
 }
 
-/* line 1337, ../sass/style.scss */
+/* line 1338, ../sass/style.scss */
 #projects-header .bg-image {
   background: url(/sites/aimhighforlife.com/files/AIMHIGH-Astroaunt-hue.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -2005,60 +2006,138 @@ h2.push-center {
   background-size: cover;
 }
 
-/* line 1348, ../sass/style.scss */
+/* line 1349, ../sass/style.scss */
 #select-projects .view-content {
   padding-bottom: 0;
 }
 
-/* line 1355, ../sass/style.scss */
+/* line 1356, ../sass/style.scss */
 #agency h2 {
   text-align: center;
   font-size: 1.5em;
 }
-/* line 1361, ../sass/style.scss */
+/* line 1362, ../sass/style.scss */
 #agency #services p {
   text-align: center;
 }
 
-/* line 1368, ../sass/style.scss */
+/* line 1369, ../sass/style.scss */
 .arrows {
   text-align: center;
   font-size: 2em;
   color: #e4ba27;
 }
-/* line 1373, ../sass/style.scss */
+/* line 1374, ../sass/style.scss */
 .arrows div {
   margin: 60px 0;
 }
 @media (max-width: 600px) {
-  /* line 1373, ../sass/style.scss */
+  /* line 1374, ../sass/style.scss */
   .arrows div {
     margin: 20px 0;
   }
 }
 
-/* line 1382, ../sass/style.scss */
+/* line 1383, ../sass/style.scss */
 .cta {
   margin-bottom: 0;
 }
-/* line 1385, ../sass/style.scss */
+/* line 1386, ../sass/style.scss */
 .cta h1 {
   margin-bottom: 0;
 }
 
-/* line 1390, ../sass/style.scss */
+/* line 1391, ../sass/style.scss */
 .connect-intro {
   margin-bottom: 0;
 }
-/* line 1393, ../sass/style.scss */
+/* line 1394, ../sass/style.scss */
 .connect-intro p + p {
   margin-bottom: 0;
+}
+
+/* line 1399, ../sass/style.scss */
+#connect {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+  text-align: center;
+}
+/* line 1410, ../sass/style.scss */
+#connect .bg {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+/* line 1420, ../sass/style.scss */
+#connect .inner {
+  -moz-border-radius: 100vh;
+  -webkit-border-radius: 100vh;
+  border-radius: 100vh;
+  display: table;
+  background-color: rgba(47, 47, 47, 0.98);
+  color: #e4ba27;
+  height: 120vh;
+  width: 120vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -60vh;
+  margin-left: -60vh;
+}
+/* line 1435, ../sass/style.scss */
+#connect .info {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Raleway", sans-serif;
+}
+/* line 1442, ../sass/style.scss */
+#connect h1 {
+  margin-bottom: 30px;
+}
+/* line 1450, ../sass/style.scss */
+#connect .arrows div {
+  margin: 30px 0;
+}
+/* line 1454, ../sass/style.scss */
+#connect .email {
+  font-size: 2em;
+}
+/* line 1458, ../sass/style.scss */
+#connect .phone {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+/* line 1463, ../sass/style.scss */
+#connect .social-icons {
+  margin-top: 60px;
+}
+/* line 1466, ../sass/style.scss */
+#connect .social-icons a {
+  font-size: 2em;
+}
+/* line 1471, ../sass/style.scss */
+#connect .icon-cross {
+  font-size: 2em;
+  margin-top: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
 }
 
 /* SERVICE
 --------------------------------------------------------------
 -------------------------------------------------------------- */
-/* line 1403, ../sass/style.scss */
+/* line 1483, ../sass/style.scss */
 .service-links li a {
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -2069,37 +2148,37 @@ h2.push-center {
   *zoom: 1;
   *display: inline;
 }
-/* line 1408, ../sass/style.scss */
+/* line 1488, ../sass/style.scss */
 .service-links li a img {
   display: none;
 }
-/* line 1412, ../sass/style.scss */
+/* line 1492, ../sass/style.scss */
 .service-links li a.service-links-facebook:before {
   content: "\e605";
 }
-/* line 1416, ../sass/style.scss */
+/* line 1496, ../sass/style.scss */
 .service-links li a.service-links-twitter:before {
   content: "\e604";
 }
-/* line 1420, ../sass/style.scss */
+/* line 1500, ../sass/style.scss */
 .service-links li a.service-links-google-plus:before {
   content: "\e606";
 }
-/* line 1424, ../sass/style.scss */
+/* line 1504, ../sass/style.scss */
 .service-links li a.service-links-pinterest-button:before {
   content: "\e607";
 }
 
-/* line 1429, ../sass/style.scss */
+/* line 1509, ../sass/style.scss */
 .service-links li.service-links-pinterest-button a:before {
   content: "\e607";
 }
 
-/* line 1433, ../sass/style.scss */
+/* line 1513, ../sass/style.scss */
 .teaser .service-links {
   float: left;
 }
-/* line 1436, ../sass/style.scss */
+/* line 1516, ../sass/style.scss */
 .teaser .service-links li {
   display: inline-block;
   vertical-align: middle;
@@ -2109,16 +2188,16 @@ h2.push-center {
   margin: 0 10px 0 0;
 }
 
-/* line 1443, ../sass/style.scss */
+/* line 1523, ../sass/style.scss */
 .teaser li.service-links-pinterest-button {
   display: none;
 }
 
-/* line 1447, ../sass/style.scss */
+/* line 1527, ../sass/style.scss */
 .full .service-links {
   text-align: center;
 }
-/* line 1450, ../sass/style.scss */
+/* line 1530, ../sass/style.scss */
 .full .service-links li {
   display: inline-block;
   vertical-align: middle;
@@ -2127,7 +2206,7 @@ h2.push-center {
   *display: inline;
   margin: 0 10px;
 }
-/* line 1455, ../sass/style.scss */
+/* line 1535, ../sass/style.scss */
 .full .service-links a {
   background-image: none  !important;
   font-size: 40px !important;
@@ -2139,44 +2218,44 @@ h2.push-center {
   vertical-align: middle !important;
 }
 
-/* line 1468, ../sass/style.scss */
+/* line 1548, ../sass/style.scss */
 .full .share-post {
   text-align: center;
   padding-top: 60px;
   margin-bottom: 20px;
 }
-/* line 1473, ../sass/style.scss */
+/* line 1553, ../sass/style.scss */
 .full .share-post h2 {
   font-weight: 200;
   color: #e4ba27;
   font-size: 30px;
   margin-bottom: 10px;
 }
-/* line 1480, ../sass/style.scss */
+/* line 1560, ../sass/style.scss */
 .full .share-post h3 {
   font-family: "GaramondPremierProLightDisplay", serif;
   font-style: italic;
   margin-bottom: 10px;
 }
-/* line 1486, ../sass/style.scss */
+/* line 1566, ../sass/style.scss */
 .full .share-post ul li {
   margin: 0 10px;
 }
-/* line 1491, ../sass/style.scss */
+/* line 1571, ../sass/style.scss */
 .full .share-post .pinterest {
   background: url(../images/service_links/pinterest.png) no-repeat;
   width: 80px;
   height: 80px;
   display: block;
 }
-/* line 1498, ../sass/style.scss */
+/* line 1578, ../sass/style.scss */
 .full .share-post a {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 1502, ../sass/style.scss */
+/* line 1582, ../sass/style.scss */
 .full .share-post a:hover {
   background-color: #bbbbbb;
   color: #e4ba27;
@@ -2184,40 +2263,40 @@ h2.push-center {
 
 /* EXTRAS
 -------------------------------------------------------------- */
-/* line 1511, ../sass/style.scss */
+/* line 1591, ../sass/style.scss */
 body.cke_show_borders {
   width: 800px !important;
   min-width: 800px;
   margin: 0 auto;
 }
 
-/* line 1513, ../sass/style.scss */
+/* line 1593, ../sass/style.scss */
 .image-post_full {
   position: relative;
   z-index: 1;
 }
 
-/* line 1518, ../sass/style.scss */
+/* line 1598, ../sass/style.scss */
 div.krumo-root {
   width: 800px;
   margin-left: 500px;
 }
 
-/* line 1523, ../sass/style.scss */
+/* line 1603, ../sass/style.scss */
 body.mceContentBody {
   width: 800px !important;
   min-width: 800px;
   margin: 0 auto;
 }
 
-/* line 1530, ../sass/style.scss */
+/* line 1610, ../sass/style.scss */
 #cboxContent, .cboxPhoto {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
 }
 
-/* line 1534, ../sass/style.scss */
+/* line 1614, ../sass/style.scss */
 #cboxClose.cbox-close-plain {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -2230,7 +2309,7 @@ body.mceContentBody {
   /*text-indent: -999px !important;*/
 }
 
-/* line 1544, ../sass/style.scss */
+/* line 1624, ../sass/style.scss */
 .text-center {
   text-align: center !important;
 }

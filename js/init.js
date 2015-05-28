@@ -7,6 +7,7 @@
 			var win_w = win.width();
 			var win_h = win.height();
 			var header = $('#header');
+			var connect = $('#connect');
 		
 			$('#plane, #open-btn').click(function(event) {
 				header.addClass('header-open');
@@ -19,6 +20,25 @@
 			   }, 800);
 				return false;
 			});
+
+			$('a[href*="contact"]').click(function(){
+				showConnect();
+				return false;
+			});
+
+			$('#connect .icon-cross, #connect').click(function(){
+				hideConnect();
+				return false;
+			});
+
+			function showConnect(){
+				hideHeader();
+				connect.fadeIn(300);
+			}
+
+			function hideConnect(){
+				connect.fadeOut(300);
+			}
 
 
 
