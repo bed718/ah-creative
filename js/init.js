@@ -69,10 +69,12 @@
 				}
 			});
 
+			$('.slide-1, .slide-2, .slide-3, .slide-4').css({'opacity':'0', 'top' : 20});
+
 
 			win.scroll( function(){
 		    
-		      // fadeOnScroll('#intro-1 p, #intro-1 h1, #intro-1 h2');
+		       fadeOnScroll('.slide-1, .slide-2, .slide-3, .slide-4');
 		    
 		    });
 
@@ -80,7 +82,7 @@
 	        $(target).each( function(i){
 	            var $this = $(this);
 
-	            var bottom_of_object = $this.offset().top + $this.outerHeight();
+	            var bottom_of_object = $this.offset().top + $this.outerHeight() / 2;
 	            var bottom_of_window = win.scrollTop() + win.height();
 	            
 	            if( bottom_of_window > bottom_of_object ){ 
@@ -89,6 +91,8 @@
 	            
 	        }); 
 			}
+
+			fadeOnScroll('.slide-1, .slide-2, .slide-3, .slide-4');
 
 		}
 	}
