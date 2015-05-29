@@ -72,7 +72,7 @@
 
 			win.scroll( function(){
 		    
-		       fadeOnScroll('#intro-1 p, #intro-1 h1, #intro-1 h2');
+		      // fadeOnScroll('#intro-1 p, #intro-1 h1, #intro-1 h2');
 		    
 		    });
 
@@ -145,7 +145,7 @@
 				target.show();
 			}
 
-			translate('#aha-goals');
+			translate('#intro-1 .slide-4');
 			translate('#cta');
 
 		}

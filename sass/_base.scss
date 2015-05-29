@@ -27,9 +27,9 @@ $page_bg_med:        darken($page_bg, 8%);
 $page_bg_dk:        darken($page_bg, 30%);
 
 /*  TYPOGROPHY */
-$font_main:					'GaramondPremierProLightDisplay', serif;
+$font_main:					'latin_modern_roman10_regular', serif;
 $font_header:				'Raleway', sans-serif;
-$font_fancy:        'GaramondPremierProLightItalicDisplay', serif;
+$font_fancy:        'latin_modern_roman_slante10Rg', serif;
 
 $font_weight_lt:         100;
 $font_weight_reg:        200;
@@ -45,6 +45,8 @@ $border_solid_lt:       lighten($color_main_lt, 15%) solid 1px;
 $border_solid_accent:   $color_accent solid 1px;
 $border_dashed_lt:      lighten($color_main_lt, 15%) dashed 1px;
 $border_dashed_accent:  $color_accent dashed 1px;
+
+$border_dotted_accent:  $color_accent dotted 1px;
 
 /* MIX-INS 
 -------------------------------------------------------------- */

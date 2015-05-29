@@ -3,20 +3,55 @@
 
 <!-- Creative Intro -->
 <div id="intro-1" class="home section">
-	<div>
-		<h1>Hey, you.</h1>
-		<p>Yeah you:</p>
-		<p>The butcher.</p>
-		<p>The baker.</p>
-		<p>The candlestick maker.</p>
-		<p>The shoe designer.</p>
-		<p>The photographer.</p>
-		<p>The coffee shop owner.</p>
-		<p>The lawyer.</p>
-		<p>The interior designer.</p>
-		<p>The restaurateur.</p>
-		<p>All of you...</p>
-		<h2>We are here to help.</h2>
+
+	<div class="slide-1">
+		<h2>Hey You,</h2>
+	</div>
+
+	<div class="lines-2">
+		<div class="circle top"></div>
+		<div class="line-1"></div>
+		<div class="circle bot"></div>
+	</div>
+
+	<div class="slide-2">
+		<h2>Yea, you.</h2>
+		<p><span>The:</span> Accountant.  Laundromat Owner.  Furniture Maker.  Book Binder.  Plumber.  Electrician.  Bar Owner.  Textile Designer.  Tech Startup.  Glassblower.  Realtor.  Carpet Cleaner.  Motivational Speaker.  Chef.  Writer.  Dancer.  Artist.  Producer.  Agent.  Musician.  Hair Salon Owner.  Nutritionist.  Actor.</p>
+	</div>
+
+	<div class="lines-2">
+		<div class="circle top"></div>
+		<div class="line-1"></div>
+		<div class="circle bot"></div>
+	</div>
+
+
+	<div class="slide-3">
+		<h2><span>The</span> Small Business Owner</h2>
+	</div>
+
+	<div class="lines-2">
+		<div class="circle top"></div>
+		<div class="line-1"></div>
+		<div class="circle bot"></div>
+	</div>
+
+	<div class="slide-4">
+		<h2>We're here to help</h2>
+
+		<div class="translatable">
+			<div class="translate first" data-index="1">
+				<p><span>Our Goal:</span> The chief goal of Aim High Agency is to help Small Business Owners grow their businesses. Whether it’s increased foot traffic or a more engaged social media audience, we’re here to help develop and execute the right strategy for your unique business goals.</p>
+				<h2><a href="#" class="trigger" data-target="2">( Translate. )</a></h2>
+			</div>
+			
+			<div class="translate last" data-index="2">
+				<p class="text-center">We want to make you more money.<br />
+					Because if you make money, we make money.<br />
+					And money can buy us awesome stuff like <a href="https://www.youtube.com/watch?v=Of2HU3LGdbo" target="_blank">jetpacks</a>.</p>
+					<h2><a href="#" class="trigger" data-target="1">( Un-translate. )</a></h2>
+			</div>
+		</div>
 	</div>
 
 	<div class="arrows">
@@ -24,36 +59,20 @@
 	</div>
 </div>
 
-<div  id="aha-goals" class="home section med">
-	<h1>Welcome.</h1>
-	<div class="translatable">
-		<div class="translate first" data-index="1">
-			<p>The chief goal of Aim High Agency is to help Small Business Owners grow their businesses. Whether it’s increased foot traffic or a more engaged social media audience, we’re here to help develop and execute the right strategy for your unique business goals.</p>
-			<div class="btn"><a href="#" class="trigger" data-target="2">Translate this corporate jargon.</a></div>
-		</div>
-		<div class="translate" data-index="2">
-			<p>We want to help dreamers and doers because we can think of no nobler pursuit. But dreamers and doers can sometimes use a hand from experts.</p>
-			<div class="btn"><a href="#" class="trigger" data-target="3">Translate again.</a></div>
-		</div>
-		<div class="translate" data-index="3">
-			<p>Want some more money? Well, you better have have the brand, content and growth strategy to match. That’s where we come in.</p>
-			<div class="btn"><a href="#" class="trigger" data-target="4">Translate one more time.</a></div>
-		</div>
-		<div class="translate last" data-index="4">
-			<p class="text-center">We want to make you more money.<br />
-				Because if you make money, we make money.<br />
-				And money can buy us awesome stuff like <a href="https://www.youtube.com/watch?v=Of2HU3LGdbo" target="_blank">costumes for our cats</a>.</p>
-			<div class="btn"><a href="#" class="trigger" data-target="1">Reset</a></div>
-			<div class="arrows">
-				<div class="icon-arrow-down2"></div>
-			</div>
-		</div>
-	</div>
-</div>
-
 <!-- END Creative Intro -->
 
 
+
+<!-- Front Quote -->
+
+<div id="front-divider-1" class="home section dark">
+	<div class="quote-bg"></div>
+	<div class="quote">
+		&ldquo;Aim high, and you won't shoot your foot off.&rdquo;
+		<div class="author">~ Phillis Diller</div>
+	</div>
+</div>
+<!-- END Front Quote -->
 
 
 
@@ -122,94 +141,3 @@
 
 
 
-
-<!-- The Agency (OLD) -->
-<!-- SERVICES -->
-<div id="services">
-	<div class="">
-
-		<div class="services-intro section">
-			<p>If we could spend all day making stuff, we would... oh wait, WE DO! Take a look at our services below, check out some of our past <a href="/projects">projects,</a> then give us a <a href="/contact">shout</a> and we can discuss creating something amazing together. </p>
-		</div>
-
-		<div class="arrows">
-				<div class="icon-arrow-down2"></div>
-			</div>
-		
-		<div class="services-list bg-lt section">
-			<h1>Our Services</h1>
-			<p>Here at Aim High we have access to some of the best designers, developers, creatives, and business strategists around. While your project will probably not utilize our full list of services, doesn’t it feel good to know that, even if you needed a tap dancer, we could do that too?!</p>
-
-			<ul>
-				<h2>Strategy</h2>
-				<li>Digital Consultation</li>
-				<li>User Experience</li>
-				<li>Brand Strategy & Development</li>
-				<li>Concept Development</li>
-				<li>Information Architecture</li>
-				<li>Content Strategy</li>
-				<li>Social Media Marketing</li>
-				<li>Business Consulting</li>
-				<li>Advertising Campaign</li>
-				<li>Business Plan Presentation</li>
-				<li>Location Scouting</li>
-				<li>Creative Concepts</li>
-				<li>Ideas Development</li>
-			</ul>
-			<ul>
-				<h2>Creative</h2>
-				<li>Interface Design</li>
-				<li>Art Direction</li>
-				<li>Interaction Design</li>
-				<li>Brand Identity</li>
-				<li>Graphic Design</li>
-				<li>Product Design</li>
-				<li>Furniture Design</li>
-				<li>Photography</li>
-				<li>Interior Design</li>
-				<li>Video Direction</li>
-				<li>Video Production</li>
-				<li>Video Editing</li>
-				<li>Sound Design</li>
-			</ul>
-			<ul>
-				<h2>Development</h2>
-				<li>Personal & Corporate Websites</li>
-				<li>Responsive Websites</li>
-				<li>Frontend & Backend</li>
-				<li>E-commerce</li>
-				<li>Content Management Systems</li>
-				<li>Web & Mobile Apps</li>
-				<li>Event Applications</li>
-				<li>Digital Prototypes</li>
-			</ul>
-			<ul>
-				<h2>Other Stuff</h2>
-				<li>DJ & Music Selection</li>
-				<li>Event Planning & Design</li>
-				<li>Cool Hunting</li>
-				<li>Modeling</li>
-				<li>Origami</li>
-				<li>Tap Dance (yup!)</li>
-			</ul>
-
-			<div class="image"><img src="/sites/all/themes/base_creative/images/nicolas-brothers-tap-dance.gif" alt="The Nicolas Brothers"></div>
-
-		</div><!-- END .services-list -->
-		
-		<div class="cta section">
-			
-			<h1>Want to create something together?<br /><br />Let's do this!</h1>
-			<div class="arrows">
-				<div class="icon-arrow-down2"></div>
-			</div>
-			<div class="btn big">
-				<a href="/creative/contact">Connect with us today</a>
-			</div>
-			
-		</div>
-	</div>
-</div>
-
-<div class="divider">~</div>
-<!-- END The Agency (old) -->
