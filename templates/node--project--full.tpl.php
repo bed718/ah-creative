@@ -20,5 +20,4 @@
 	</div>
 	
 	<?php print $service_links; ?>
-	<div class="divider">~</div>
 </div>
