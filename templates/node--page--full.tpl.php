@@ -3,7 +3,9 @@
 		<div class="bg-image"></div>
 
 		<?php if(isset($bg_body)): ?>
-			<div class="bg-body"><?php print $bg_body; ?></div>
+			<div class="bg-body">
+				<?php print $bg_body; ?>
+			</div>
 		<?php endif; ?>
 
 	</div>

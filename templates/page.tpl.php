@@ -110,7 +110,7 @@
 					<p>P.O. Box 291026<br />
 						Los Angeles, CA 90029</p>
 					<p>(323) 388-7347</p>
-					<p><a href="mailto:info@aimhighforlife.com">info@aimhighforlife.com</a></p>
+					<p><a href="mailto:info@aimhighforlife.com">hello@aimhighagency.com</a></p>
 					<div class="social-icons">
 						<a href="http://twitter.com/aimhighforlife" class="icon-twitter" target="_blank"></a>
 						<a href="http://instagram.com/aimhighforlife" class="icon-instagram" target="_blank"></a>
