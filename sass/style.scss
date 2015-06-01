@@ -87,7 +87,7 @@
 		height: 100vh;
 		padding-right: 80px;
 		text-align: left;
-		
+
 
 		&.header-open{
 			left: 0;
@@ -196,7 +196,11 @@
 			padding-bottom: 2px;
 
 			&:hover{
-				border-bottom: $color_accent solid 1px;
+				border-bottom: $color_main solid 1px;
+			}
+
+			&.active{
+				border-bottom: #fff solid 1px;
 			}
 
 		}
@@ -1665,8 +1669,8 @@ h2.push-center{
 		padding-top: 40px;
 		margin-bottom: -100px;
 		margin-top: -100px;
-		background-color: transparent;
-		border: $page_bg_med solid 2px;
+		background-color: #f6f6f6;
+		//border: $page_bg_med solid 2px;
 
 		.icon{
 			margin-bottom: 20px;
@@ -1683,7 +1687,7 @@ h2.push-center{
 		padding-top: 40px;
 		margin-top: -100px;
 		margin-bottom: -100px;
-		background-color: #f6f6f6;
+		background-color: #ebebeb;
 
 		.icon{
 			margin-bottom: 20px;
@@ -1698,7 +1702,7 @@ h2.push-center{
 		padding-top: 40px;
 		margin-top: -100px;
 		margin-bottom: 0;
-		background-color: #ebebeb;
+		background-color: #ddd;
 
 		.icon{
 			margin-bottom: 40px;
