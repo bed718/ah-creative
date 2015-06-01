@@ -1625,7 +1625,7 @@ h2.push-center{
 		@include border-radius(400px);
 		width: 800px;
 		height: 800px;
-		background-color: $page_bg_med;
+		background-color: #f6f6f6;
 		margin-left: auto;
 		margin-right: auto;
 		padding-left: 40px;
@@ -1687,7 +1687,7 @@ h2.push-center{
 		padding-top: 40px;
 		margin-top: -100px;
 		margin-bottom: -100px;
-		background-color: #ebebeb;
+		//background-color: #ebebeb;
 
 		.icon{
 			margin-bottom: 20px;
@@ -1702,7 +1702,7 @@ h2.push-center{
 		padding-top: 40px;
 		margin-top: -100px;
 		margin-bottom: 0;
-		background-color: #ddd;
+		//background-color: #ddd;
 
 		.icon{
 			margin-bottom: 40px;

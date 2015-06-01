@@ -70,7 +70,7 @@
 			});
 
 			$('#intro-1 .slide-1, #intro-1 .slide-2, #intro-1 .slide-3, #intro-1 .slide-4').css({'opacity':'0', 'top' : 20});
-
+			//$('#services .slide-1, #services .slide-2, #services .slide-3').css({'opacity':'0', 'top' : 20});
 
 			win.scroll( function(){
 		    
@@ -93,6 +93,7 @@
 			}
 
 			fadeOnScroll('#intro-1 .slide-1, #intro-1 .slide-2, #intro-1 .slide-3, #intro-1 .slide-4');
+			//fadeOnScroll('#services .slide-1, #services .slide-2, #services .slide-3');
 
 		}
 	}
