@@ -1054,9 +1054,11 @@
 	.field-name-field-services:after{
 		padding: 0 2px;
 		content: "\002F";
-		color: $color_accent;
-		
-		
+		color: $color_accent;	
+	}
+
+	.field-name-field-services:last-child:after{
+		content: none;
 	}
 }
 

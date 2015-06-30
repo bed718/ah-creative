@@ -15,8 +15,8 @@
 	</div>
 
 	<div class="slide-2">
-		<h2>Yea, you.</h2>
-		<p><span>The:</span> Accountant.  Tech Startup. Furniture Maker.  Book Binder.  Plumber.  Electrician.  Bar Owner.  Textile Designer.    Glassblower.  Realtor. Laundromat Owner.  Carpet Cleaner.  Motivational Speaker.  Chef.  Writer.  Dancer.  Artist.  Producer.  Agent.  Musician.  Hair Salon Owner.  Nutritionist.  Actor.</p>
+		<h2>Yeah, you.</h2>
+		<p><span>The:</span> Accountant.  Tech Startup. Furniture Maker. Copy Writer.  Bookbinder.  Plumber.  Electrician.  Bar Owner.  Textile Designer.    Glassblower.  Realtor. Laundromat Owner.  Carpet Cleaner.  Motivational Speaker.  Chef.  Writer.  Dancer.  Artist.  Producer.  Agent.  Musician.  Hair Salon Owner.  Nutritionist.  Actor.</p>
 	</div>
 
 	<div class="lines-2">
@@ -71,7 +71,7 @@
 	<div class="quote-bg"></div>
 	<div class="quote">
 		&ldquo;Aim high, and you won't shoot your foot off.&rdquo;
-		<div class="author">~ Phillis Diller</div>
+		<div class="author">~ Phyllis Diller</div>
 	</div>
 </div>
 <!-- END Front Quote -->
@@ -158,5 +158,68 @@
 
 
 
+
+
+<!-- Creative Intro -->
+<div id="intro-1" class="home section">
+
+	<div class="slide-1">
+		<h2>Hey You.</h2>
+	</div>
+
+	<div class="lines-2">
+		<div class="circle top"></div>
+		<div class="line-1"></div>
+		<div class="circle bot"></div>
+	</div>
+
+	<div class="slide-2">
+		<h2>Yea, you.</h2>
+		<p><span>The:</span> Accountant.  Tech Startup. Furniture Maker.  Book Binder.  Plumber.  Electrician.  Bar Owner.  Textile Designer.    Glassblower.  Realtor. Laundromat Owner.  Carpet Cleaner.  Motivational Speaker.  Chef.  Writer.  Dancer.  Artist.  Producer.  Agent.  Musician.  Hair Salon Owner.  Nutritionist.  Actor.</p>
+	</div>
+
+	<div class="lines-2">
+		<div class="circle top"></div>
+		<div class="line-1"></div>
+		<div class="circle bot"></div>
+	</div>
+
+
+	<div class="slide-3">
+		<h2><span>The</span> Small Business Owner</h2>
+	</div>
+
+	<div class="lines-2">
+		<div class="circle top"></div>
+		<div class="line-1"></div>
+		<div class="circle bot"></div>
+	</div>
+
+	<div class="slide-4">
+		<h2>We're here to help</h2>
+
+		<div class="translatable">
+			<div class="translate first" data-index="1">
+				<p><span>Our Goal:</span> The chief goal of Aim High Agency is to help Small Business Owners grow their businesses. Whether it’s increased foot traffic or a more engaged social media audience, we’re here to help develop and execute the right strategy for your unique business goals.</p>
+				<h2><a href="#" class="trigger" data-target="2">( Translate )</a></h2>
+			</div>
+			
+			<div class="translate last" data-index="2">
+				<p class="text-center">We want to make you more money.<br />
+					Because if you make money, we make money.<br />
+					And money can buy us awesome stuff like <a href="https://www.youtube.com/watch?v=x2sT9KoII_M" target="_blank">jetpacks</a>.</p>
+					<h2><a href="#" class="trigger" data-target="1">( Un-translate )</a></h2>
+			</div>
+		</div>
+
+		<div class="arrows">
+			<div class="icon-arrow-down2"></div>
+		</div>
+	</div>
+
+	
+</div>
+
+<!-- END Creative Intro -->
 
 
