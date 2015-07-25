@@ -26,7 +26,7 @@
 	    Aim High <span>Agency</span>
 	  </div>
 
-	  <h3>The Small Agency for Small Businesses.</h3>
+	  <h3>Stay Fresh. Be Creative.</h3>
 	  <div class="arrows">
 		<div class="icon-arrow-down2"></div>
 	</div>
